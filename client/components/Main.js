@@ -31,7 +31,7 @@ const Main = () => {
                     <input
                         type="text"
                         className={style.transferPropInput}
-                        placeHolder="0.0"
+                        placeholder="0.0"
                         pattern="^[0-9]*[.,]?[0-9]*$"
                         onChange={(e) => handleChange(e, 'amount')}
                     />
